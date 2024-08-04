@@ -4,31 +4,67 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(153, 155, 233);
+}
+h1{
+    margin: 0%;
+    float: right;
 }
 .main{
     display: flex;
     flex-direction: column;
+    background-color:#302f3b ;
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
 }
 .display{
+    display: flex;
+    flex-direction: column;
     margin-top: 15%;
     margin-bottom: 5%;
-    border: 5px;
-    border-style: solid;
-    border-color: black;
-    background-color: black;
+    width: 320px;
+    height: 90px;
+    background-color: lightblue;
 }
+
 .buttons{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 800px;
+    width: auto;
+    height: 700px;
 }
 .AcDel{
-    display: inline;
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 .numbers{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
+.button {
+    border: 1px outset blue;
+    background-color: lightBlue;
+    height:60px;
+    width:60px;
+    cursor:pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20%;
+ }
+ .button:hover {
+    background-color: blue;
+    color:white;
+ }
+ #ac{
+    height:60px;
+    width:130px;
+    margin-right: 6px;
+ }
+ #del{
+    height:60px;
+    width:130px;
+ }
